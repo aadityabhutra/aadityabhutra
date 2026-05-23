@@ -26,4 +26,4 @@ Most of my projects follow a pattern: build something that catches attackers, th
 
 ---
 
-📫 aadityabhutra1@gmail.com
+📫 aadityabhutra@gmail.com
