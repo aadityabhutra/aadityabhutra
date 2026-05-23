@@ -1,35 +1,29 @@
-## Aaditya Bhutra — Security Researcher & Defensive Systems Builder
+# Hi, I'm Aaditya 👋
 
-🛡 I build deception systems that make attackers reveal themselves.
+I'm interested in cybersecurity — specifically offensive tooling, network-level defense, and understanding how attacks work at the systems layer.
 
-Currently: B.Tech Computer Science | Specialising in Threat Detection & Cloud Security
+Most of my projects follow a pattern: build something that catches attackers, then go one layer deeper to understand what they're actually doing.
 
 ---
 
-### What I'm building
+## Projects
 
-| Project | Stack | What it does |
+| Project | What it does | Stack |
 |---|---|---|
-| [Terraform-Honeypot](https://github.com/aadityabhutra/Terraform-Honeypot) | HCL · Python · AWS | Auto-deploys a decoy AWS environment when GuardDuty detects a port scan. Fingerprints attacker, logs to DynamoDB, alerts via SNS. |
-| [Web-Honeypot](https://github.com/aadityabhutra/Web-Honeypot) | Python · Flask | Simulates vulnerable endpoints (admin panel, login, API). Logs IPs, payloads, user agents. Includes attack analysis + visualisation scripts. |
-| [SmartBudget](https://github.com/aadityabhutra/SmartBudget) | Python · Streamlit · Scikit-learn | ML-powered expense categorisation (Naive Bayes + TF-IDF). Budget anomaly alerting via SMTP. |
+| [NetSentry](https://github.com/aadityabhutra/netsentry) | Raw socket packet sniffer — captures live traffic, parses TCP/IP headers manually, detects port scans and SYN floods | C, Linux raw sockets, ncurses |
+| [Terraform-Honeypot](https://github.com/aadityabhutra/Terraform-Honeypot) | Serverless honeypot that auto-deploys fake AWS infrastructure the moment a scan is detected | Terraform, AWS Lambda, GuardDuty |
+| [Web-Honeypot](https://github.com/aadityabhutra/Web-Honeypot) | Flask server simulating vulnerable endpoints — logs IPs, paths, payloads, and visualizes attack patterns | Python, Flask |
+| [SmartBudget](https://github.com/aadityabhutra/SmartBudget) | Personal finance tracker and analysis tool | Python, Jupyter |
+| [Election Voting System](https://github.com/aadityabhutra/election-voting-system) | GUI-based voting application | Python, Tkinter |
 
 ---
 
-### Tech
+## Currently Learning
 
-```
-Languages:   Python · HCL (Terraform) · SQL · Bash
-Cloud:       AWS (Lambda · GuardDuty · EventBridge · DynamoDB · S3 · SNS)
-Security:    Honeypot Architecture · Threat Detection · Log Analysis
-Tools:       Flask · Streamlit · Scikit-learn · Matplotlib
-```
+- Low-level network programming in C
+- Cloud security and IaC (Terraform, AWS)
+- Bug bounty methodology
 
 ---
 
-### Currently
-- 🔐 Preparing for ISC2 CC certification
-- 📖 Studying MITRE ATT&CK TTPs for detection rule development
-- 🔭 Next project: SIEM homelab with custom detection rules
-
-📫 aadityabhutra@gmail.com · [LinkedIn](https://linkedin.com/in/aadityabhutra)
+📫 aadityabhutra1@gmail.com
